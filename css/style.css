@@ -160,6 +160,9 @@
 .favoritecontainer .card .icon {
     margin-top: 40px ;
 }
+.favoritecontainer .card .icon i {
+    color: red !important;
+}
 
 .swiper {
     margin: auto !important;
