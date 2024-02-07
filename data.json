@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "img": "airpods.png",
+      "name": "t-shirt adidas",
+      "price": 80,
+      "category": "fashion"
+    },
+    {
+      "img": "airpods.png",
+      "name": "earpods",
+      "price": 150,
+      "category": "phone accessories"
+    },
+    {
+      "img": "airpods.png",
+      "name": "jacket",
+      "price": 120,
+      "category": "fashion"
+    },
+    {
+      "img": "airpods.png",
+      "name": "adidas bottle",
+      "price": 50,
+      "category": "Sport"
+    },
+    {
+      "img": "airpods.png",
+      "name": "glasses",
+      "price": 80,
+      "category": "men accessories"
+    },
+    {
+      "img": "airpods.png",
+      "name": "cap",
+      "price": 20,
+      "category": "men accessories"
+    },
+    {
+      "img": "airpods.png",
+      "name": "bag adidas",
+      "price": 110,
+      "category": "bags"
+    },
+    {
+      "img": "airpods.png",
+      "name": "shoes adidas",
+      "price": 80,
+      "category": "sport"
+    },
+    {
+      "img": "airpods.png",
+      "name": "bag",
+      "price": 110,
+      "category": "fashion"
+    }
+  ],
+  "users": [
+    {
+      "fname": "airpods.png",
+      "lname": "t-shirt adidas",
+      "email": "80",
+      "password": "fashion",
+      "cart": [
+        {
+          "name": "airpods",
+          "quantity": 1
+        },
+        {
+          "name": "airpods",
+          "quantity": 2
+        }
+      ],
+      "favorate": ["product1name" ,"product2name"]
+    }
+  ]
+}

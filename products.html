@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        /* html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        } */
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class=" navbar bg-secondary-subtle  p-4 fw-bold " style=" color: blue !important; ">
+            <div class="container-fluid text-primary fs-5  ">
+                <a href="index.html" class="mb-0 p-2 fst-italic text-decoration-none">online shopping </a>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link logout" href="#" id="logoutLink" onclick="logout()"
+                            style="display: block;">logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- end header -->
+
+    <!-- start search section -->
+
+    <section>
+
+        <div id="cartcontainer" class="container cartcontainer d-flex flex-wrap justify-content-between my-4">
+
+
+
+
+
+        </div>
+        <div>
+            <h3 class="text-center">total price is : <span id="totalprice"></span> $</h3>
+        </div>
+        </div>
+    </section>
+
+    <!-- end search section -->
+    <hr>
+
+    <!-- start main -->
+    <section>
+        <h3 class="section-header">favorite</h3>
+        <div class="section-headerline"></div>
+
+        <div id="favoritecontainer" class="container favoritecontainer d-flex justify-content-evenly flex-wrap mt-3 p-0">
+
+
+            <div class="swiper mySwiper">
+                <div id="swiper-wrapper" class="swiper-wrapper">
+
+                   
+
+                </div>
+
+                
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+    <!-- end main -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+    <script src="./js/products.js"></script>
+</body>
+
+</html>
